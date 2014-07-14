@@ -1,0 +1,17 @@
+@media only screen and (min-width: 40.063em) and (max-width: 64.063em) {
+  /* line 4, ../../scss/tablet.scss */
+  .orbit-container .orbit-bullets-container {
+    display: none;
+  }
+
+  /* line 10, ../../scss/tablet.scss */
+  .photo-list img {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  /* line 16, ../../scss/tablet.scss */
+  .align-v {
+    margin-top: 0px;
+  }
+}

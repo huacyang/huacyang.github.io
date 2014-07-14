@@ -1,0 +1,13 @@
+             /*
+@import "compass/utilities/sprites";
+
+$icon-sprite-spacing: 5px;
+$icon-sprite-dimensions: true;
+
+@import "icon/*.png";
+
+.adobe-dps { 
+	display: inline-block;
+	@include icon-sprite(dps);
+}
+*/

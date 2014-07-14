@@ -1,0 +1,305 @@
+/* line 20, ../../scss/template.scss */
+.center {
+  text-align: center;
+}
+
+/* line 24, ../../scss/template.scss */
+.disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+/* line 29, ../../scss/template.scss */
+.line-small {
+  margin-top: -20px;
+  margin-bottom: 0px;
+}
+
+/* x x x x x x x x x *
+ * Overriding Sidebar *
+ * x x x x x x x x x */
+/* line 37, ../../scss/template.scss */
+#sidebar {
+  position: fixed;
+  margin-top: 50px;
+}
+
+/* x x x x x x x x x *
+ * Overriding Topbar *
+ * x x x x x x x x x */
+/* line 45, ../../scss/template.scss */
+.top-bar {
+  background: none;
+  padding: 45px 0.9375rem 90px 0.9375rem;
+  transition: all 0.5s ease 0.1s;
+}
+/* line 51, ../../scss/template.scss */
+.top-bar ul.title-area img {
+  margin: -10px 0 0 0;
+}
+/* line 56, ../../scss/template.scss */
+.top-bar .top-bar-section ul {
+  background: none;
+}
+/* line 59, ../../scss/template.scss */
+.top-bar .top-bar-section ul li a:not(.button), .top-bar .top-bar-section ul li.active a:not(.button) {
+  background: none;
+  line-height: 30px;
+  font-size: 12px;
+  padding: 0;
+  margin: 5px 0 0 0;
+  text-transform: uppercase;
+}
+/* line 68, ../../scss/template.scss */
+.top-bar .top-bar-section ul li a:not(.button):hover {
+  background: none;
+  border-bottom: 2px solid #ef4523;
+  color: #222;
+}
+/* line 74, ../../scss/template.scss */
+.top-bar .top-bar-section ul li.active a:not(.button) {
+  border-bottom: 2px solid #ef4523;
+  color: #222;
+}
+/* line 77, ../../scss/template.scss */
+.top-bar .top-bar-section ul li.active a:not(.button):hover {
+  background: none;
+}
+/* line 82, ../../scss/template.scss */
+.top-bar .top-bar-section ul li {
+  margin-left: 30px;
+}
+/* line 84, ../../scss/template.scss */
+.top-bar .top-bar-section ul li a {
+  color: #888;
+}
+/* line 91, ../../scss/template.scss */
+.top-bar .top-bar-section ul li:hover:not(.has-form) > a {
+  color: #333;
+}
+/* line 95, ../../scss/template.scss */
+.top-bar .top-bar-section li ul.dropdown {
+  background: #fff;
+  border: 1px solid #ddd;
+  color: #888;
+}
+/* line 99, ../../scss/template.scss */
+.top-bar .top-bar-section li ul.dropdown li {
+  border-bottom: 1px solid #ddd;
+  margin: 0;
+  padding: 5px 15px 5px 15px;
+}
+/* line 106, ../../scss/template.scss */
+.top-bar .top-bar-section li ul.dropdown li a:not(.button):hover, .top-bar .top-bar-section li ul.dropdown li a:not(.button) {
+  background: none;
+  color: #222;
+  border-bottom: none;
+  padding: 20px -4px 40px 45px;
+}
+/* line 113, ../../scss/template.scss */
+.top-bar .top-bar-section ul.dropdown li:hover:not(.has-form) > a:not(.button) {
+  background: none;
+  color: #222;
+}
+/* line 118, ../../scss/template.scss */
+.top-bar .has-dropdown > a:after {
+  border-color: rgba(0, 0, 0, 0.5) transparent transparent;
+  margin-top: -5px;
+}
+
+/* x x x x x x x x x *
+ * Overriding Header *
+ * x x x x x x x x x */
+/* line 127, ../../scss/template.scss */
+.header-section {
+  -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.4);
+  position: fixed;
+  z-index: 999;
+  min-width: 100%;
+}
+
+/* line 135, ../../scss/template.scss */
+.contain-to-grid {
+  background-color: rgba(255, 255, 255, 0.97);
+}
+
+/* line 139, ../../scss/template.scss */
+.header-fill {
+  background: #fff;
+  height: 135px;
+}
+/* line 142, ../../scss/template.scss */
+.header-fill .tablet-mobile-logo img {
+  padding-top: 30px;
+}
+
+/* line 147, ../../scss/template.scss */
+.padding-on-my-header {
+  padding: 17px 0.9375rem 62px 0.9375rem;
+}
+/* line 149, ../../scss/template.scss */
+.padding-on-my-header ul.title-area img {
+  margin: -5px 0 0 0;
+}
+
+/* line 154, ../../scss/template.scss */
+.full-width {
+  min-width: 100%;
+}
+
+/* line 158, ../../scss/template.scss */
+#title-area {
+  margin-top: 30px;
+}
+/* line 161, ../../scss/template.scss */
+#title-area h1.title {
+  border-top: solid #333333 5px;
+}
+/* line 165, ../../scss/template.scss */
+#title-area h3.sub-title {
+  border-top: solid #707070 1px;
+  color: #707070;
+}
+/* line 170, ../../scss/template.scss */
+#title-area h3.authur {
+  border-top: solid #707070 1px;
+  color: #707070;
+  font-style: italic;
+}
+/* line 176, ../../scss/template.scss */
+#title-area p.caption {
+  color: #707070;
+  font-size: 12px;
+  line-height: 20px;
+  margin-top: 10px;
+}
+
+/* x x x x x x x x x x x x x x *
+ * Overriding Main Content Area *
+ * x x x x x x x x x x x x x x */
+/* line 188, ../../scss/template.scss */
+#content-area p {
+  line-height: 30px;
+}
+/* line 192, ../../scss/template.scss */
+#content-area p:first-child:first-letter {
+  color: #903;
+  font-size: 300%;
+  float: left;
+  line-height: 55px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 0px;
+}
+
+/* x x x x x x x x x *
+ * Overriding Footer *
+ * x x x x x x x x x */
+/* line 206, ../../scss/template.scss */
+#footer {
+  background-color: white;
+  bottom: 0;
+  height: 50px;
+  position: fixed;
+  width: 100%;
+}
+/* line 213, ../../scss/template.scss */
+#footer p {
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+/* x x x x x x x x x x x *
+ * Overriding Media Query *
+ * x x x x x x x x x x x */
+@media only screen and (min-width: 1024px) {
+  /* line 224, ../../scss/template.scss */
+  .top-bar .name {
+    margin-top: 10px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  /* line 232, ../../scss/template.scss */
+  p {
+    line-height: 3rem;
+  }
+
+  /* line 236, ../../scss/template.scss */
+  .top-bar {
+    margin-top: 0;
+    padding: 0;
+    float: none;
+  }
+  /* line 241, ../../scss/template.scss */
+  .top-bar .toggle-topbar.menu-icon a {
+    color: #222;
+  }
+  /* line 243, ../../scss/template.scss */
+  .top-bar .toggle-topbar.menu-icon a:after {
+    box-shadow: 0 10px 0 1px #222, 0 16px 0 1px #222, 0 22px 0 1px #222;
+  }
+  /* line 249, ../../scss/template.scss */
+  .top-bar ul.title-area img {
+    display: none;
+  }
+  /* line 252, ../../scss/template.scss */
+  .top-bar ul.title-area p {
+    padding-left: 10px;
+  }
+  /* line 259, ../../scss/template.scss */
+  .top-bar .top-bar-section ul li {
+    margin-left: 0;
+  }
+  /* line 262, ../../scss/template.scss */
+  .top-bar .top-bar-section ul li > a {
+    background: #ef4523;
+    border-radius: 0;
+    font-size: 0.9rem;
+  }
+  /* line 267, ../../scss/template.scss */
+  .top-bar .top-bar-section ul li:not(.has-form) a:not(.button) {
+    background: none;
+    padding: 10px 15px;
+    margin-top: 0;
+  }
+  /* line 271, ../../scss/template.scss */
+  .top-bar .top-bar-section ul li:not(.has-form) a:not(.button):hover {
+    background: #ef4523;
+    color: #fff;
+    margin-top: 0;
+  }
+  /* line 277, ../../scss/template.scss */
+  .top-bar .top-bar-section ul li.active:not(.has-form) a:not(.button) {
+    background: #ef4523;
+    color: #fff;
+    padding: 10px 15px;
+    margin-top: 0;
+  }
+  /* line 282, ../../scss/template.scss */
+  .top-bar .top-bar-section ul li.active:not(.has-form) a:not(.button):hover {
+    background: #f1593b;
+    margin-top: 0;
+  }
+
+  /* line 292, ../../scss/template.scss */
+  .header-fill {
+    height: 40px;
+  }
+}
+@media only screen and (max-width: 40.063em) {
+  /* line 299, ../../scss/template.scss */
+  dialog, .reveal-modal {
+    min-height: 30vh;
+  }
+
+  /* line 304, ../../scss/template.scss */
+  .top-bar ul.title-area p {
+    background: white;
+  }
+
+  /* line 310, ../../scss/template.scss */
+  #footer p {
+    margin-top: 5px;
+  }
+}

@@ -1,0 +1,244 @@
+/* line 11, ../../scss/style.scss */
+.blue {
+  color: #50ccff;
+}
+
+/* line 12, ../../scss/style.scss */
+.green {
+  color: #70ca33;
+}
+
+/* line 13, ../../scss/style.scss */
+.gray {
+  color: #fafafa;
+}
+
+/* line 14, ../../scss/style.scss */
+.orange {
+  color: #f28b0c;
+}
+
+/* line 15, ../../scss/style.scss */
+.purple {
+  color: #7d49d8;
+}
+
+/* line 16, ../../scss/style.scss */
+.turquoise {
+  color: #2adab0;
+}
+
+/* line 18, ../../scss/style.scss */
+.bg-blue {
+  background-color: #50ccff;
+}
+
+/* line 19, ../../scss/style.scss */
+.bg-green {
+  background-color: #70ca33;
+}
+
+/* line 20, ../../scss/style.scss */
+.bg-gray {
+  background-color: #fafafa;
+}
+
+/* line 21, ../../scss/style.scss */
+.bg-orange {
+  background-color: #f28b0c;
+}
+
+/* line 22, ../../scss/style.scss */
+.bg-purple {
+  background-color: #7d49d8;
+}
+
+/* line 23, ../../scss/style.scss */
+.bg-turquoise {
+  background-color: #2adab0;
+}
+
+/* line 25, ../../scss/style.scss */
+form, h3 {
+  margin-top: 10px;
+}
+
+/* line 29, ../../scss/style.scss */
+h3, i {
+  color: #008cba;
+}
+
+/* line 33, ../../scss/style.scss */
+.asterisk:after {
+  color: #f28b0c;
+  content: " *";
+}
+
+/* line 38, ../../scss/style.scss */
+.asterisk-l:before {
+  color: #f28b0c;
+  content: "* ";
+}
+
+/* line 43, ../../scss/style.scss */
+.center {
+  text-align: center;
+}
+
+/* line 48, ../../scss/style.scss */
+.orbit-container .orbit-bullets-container {
+  margin-top: -50px;
+}
+/* line 53, ../../scss/style.scss */
+.orbit-container .orbit-bullets li.active {
+  background-color: white;
+}
+
+/* line 60, ../../scss/style.scss */
+.photo-list img {
+  max-height: 200px;
+}
+
+/* line 66, ../../scss/style.scss */
+.reveal-modal img {
+  max-height: 500px;
+}
+
+/* line 71, ../../scss/style.scss */
+.sub-label {
+  line-height: 1.5;
+  font-size: 0.875em;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+/* line 78, ../../scss/style.scss */
+.sub-text {
+  font-size: 18px;
+}
+
+/* line 83, ../../scss/style.scss */
+.sub-nav dd {
+  padding-left: auto;
+  padding-right: auto;
+}
+/* line 88, ../../scss/style.scss */
+.sub-nav dd.active i {
+  color: white;
+}
+
+/* line 93, ../../scss/style.scss */
+.text-small {
+  font-size: 12px;
+}
+
+/* line 98, ../../scss/style.scss */
+.underline h5 {
+  text-decoration: underline;
+}
+
+/* line 103, ../../scss/style.scss */
+#banner {
+  height: auto;
+  width: 100%;
+  background-color: #008cba;
+}
+/* line 108, ../../scss/style.scss */
+#banner h3, #banner p, #banner i {
+  color: white;
+}
+/* line 113, ../../scss/style.scss */
+#banner .orbit-container img {
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 119, ../../scss/style.scss */
+#banner .orbit-container .img-area {
+  height: 275px;
+}
+/* line 124, ../../scss/style.scss */
+#banner .row {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+/* line 128, ../../scss/style.scss */
+#banner .row > div {
+  max-height: 275px;
+}
+/* line 133, ../../scss/style.scss */
+#banner .text-area {
+  margin-top: 10px;
+}
+
+/* line 138, ../../scss/style.scss */
+#box-skills {
+  padding-bottom: 10px;
+}
+
+/* line 142, ../../scss/style.scss */
+#box-skills div {
+  padding-bottom: 5px;
+}
+
+/* line 147, ../../scss/style.scss */
+#content img {
+  max-height: 200px;
+  margin-top: 5px;
+}
+/* line 152, ../../scss/style.scss */
+#content ul {
+  margin-top: -15px;
+  margin-left: 30px;
+}
+/* line 157, ../../scss/style.scss */
+#content li ul {
+  margin-top: 0px;
+}
+/* line 161, ../../scss/style.scss */
+#content .indent {
+  margin-left: 20px;
+}
+/* line 165, ../../scss/style.scss */
+#content ul.indent > li {
+  list-style-position: inside;
+}
+/* line 169, ../../scss/style.scss */
+#content .clearing-thumbs {
+  margin-top: 0px;
+}
+/* line 173, ../../scss/style.scss */
+#content .img-min img {
+  height: 200px;
+  width: 265px;
+}
+/* line 179, ../../scss/style.scss */
+#content .clearing-container img {
+  max-height: 100%;
+}
+
+/* line 187, ../../scss/style.scss */
+#content.indent-all > div > div > p {
+  margin-left: 20px;
+}
+/* line 191, ../../scss/style.scss */
+#content.indent-all > div > div > ul,
+#content.indent-all > div > div > ol {
+  margin-left: 40px;
+}
+
+/* line 197, ../../scss/style.scss */
+#copyright {
+  background-color: #333333;
+  color: white;
+  height: 45px;
+  margin-top: 200px;
+}
+/* line 203, ../../scss/style.scss */
+#copyright div {
+  margin-top: 10px;
+}
+/* line 207, ../../scss/style.scss */
+#copyright p, #copyright ul {
+  margin-bottom: 0px;
+}

@@ -1,0 +1,19 @@
+@media only screen and (max-width: 40.063em) {
+  /* line 4, ../../scss/mobile.scss */
+  .orbit-container .orbit-bullets-container {
+    display: none;
+  }
+
+  /* line 10, ../../scss/mobile.scss */
+  #banner .orbit {
+    padding-bottom: 0px;
+  }
+  /* line 13, ../../scss/mobile.scss */
+  #banner .orbit > div {
+    max-height: 100%;
+  }
+  /* line 18, ../../scss/mobile.scss */
+  #banner h3 {
+    text-align: center;
+  }
+}
