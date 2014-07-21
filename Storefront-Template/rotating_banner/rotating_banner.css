@@ -1,0 +1,106 @@
+#folios
+{
+	width: 768px;
+	display: inline-block;
+}
+
+#foliosContainer
+{
+	width: 100%;
+	margin-top: 354px;
+	margin-bottom: 50px;
+	margin-left: 4px;
+	text-align: left;
+}
+
+#loading, #more
+{
+	margin-top: 20px;
+}
+
+#more
+{
+	color: #00CBF7;
+	font-size: 20px;
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+
+.folio
+{
+	float: left;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 0px;
+	padding-bottom: 22px;
+	text-align: left;
+}
+
+.folio #manifestXRef
+{
+	color: #4c4c4c;
+	font-size: 12px;
+	padding-bottom: 7px;
+}
+
+.folio #title
+{
+	color: #999999;
+	font-size: 12px;
+	font-weight: bold;
+	padding-top: 7px;
+	padding-bottom: 3px;
+}
+
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica;
+	background: #666666;
+}
+
+.buyButton
+{
+	background-image:url('http://lighthouse.adobe.com/users/derek/store/images/blackPrice_up.png');
+	background-repeat: no-repeat;
+	width: 70px;
+	height: 30px;
+	color: #00CBF7;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 8px;
+}
+
+#marketing
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	-webkit-transform: translateZ(0);
+	height: 304px;
+	position: absolute;
+	left: 50%;			/* Used in conjunction with margin-left for horizontal center. */
+	margin-left: -365px;/* viewport width / 2 */
+	top: 20px;
+	overflow: hidden;
+	width: 730px;
+	height: 314px;
+}
+
+#marketing #bg
+{
+	position: absolute;
+	-webkit-transform: translateZ(0);
+}
+
+#marketing .rotatingImage
+{
+	position: absolute;
+	-webkit-transform: translateZ(0);
+	padding-left: 5px;
+	padding-top: 5px;
+}
+

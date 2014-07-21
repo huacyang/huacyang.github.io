@@ -1,0 +1,360 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+  <meta name="generator" content=
+  "HTML Tidy for Mac OS X (vers 31 October 2006 - Apple Inc. build 15.6), see www.w3.org" />
+
+  <title>Custom HTML Store - Get receipt data API</title>
+  <meta http-equiv="content-type" content="text/html; charset=us-ascii" />
+  <meta name="author" content="Adobe Developer Technologies Group" />
+  <link rel="stylesheet" href="css/common.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="css/print.css" type="text/css" media="print" />
+  <link rel="stylesheet" href="css/site.css" type="text/css" media="screen, projection" />
+  <link rel="shortcut icon" type="x-icon" href="favicon.ico" />
+  <script src="js/prototype.js" type="text/javascript">
+</script>
+  <script src="js/effects.js" type="text/javascript">
+</script>
+  <script src="js/controls.js" type="text/javascript">
+</script>
+  <script src="js/SpryDOMUtils.js" type="text/javascript">
+</script>
+  <script src="js/SpryEffects.js" type="text/javascript">
+</script>
+  <script src="js/SpryTabbedPanels.js" type="text/javascript">
+</script>
+  <script src="js/adobe-wadl.js" type="text/javascript">
+</script><!--[if lt IE 8]>
+   <script src="js/IE8.js" type="text/javascript"></script>
+   <style type="text/css">
+#sidebar {height: 100%;}
+#header {width: 100%;}
+    </style>
+<![endif]-->
+</head>
+
+<body>
+  <div id="header">
+    <h1><a href="/" id="home_link"><span class="replace">Custom HTML Store <span class=
+    "sdk">API</span></span></a> <span id="version">20 0</span> <span><img src=
+    "images/adobe_logo_tag_top.png" alt="Adobe logo" /></span></h1>
+
+    <ul id="menu_nav">
+      <li><a href="getting_started.html">Getting started</a></li>
+
+      <li><a href="index.html" class="selected">API Reference</a></li>
+      <!--   <li><a href="programmers_guide.html">Programmers Guide</a></li>
+      <li><a href="faq.html">FAQ</a></li> -->
+    </ul>
+  </div>
+
+  <div id="body">
+    <div id="sidebar">
+      <div id="api_tabs" class="TabbedPanels">
+        <ul class="TabbedPanelsTabGroup">
+          <li class="TabbedPanelsTab" tabindex="0">RESOURCES</li>
+
+          <li class="TabbedPanelsTab" tabindex="1">API INDEX</li>
+        </ul>
+
+        <div class="TabbedPanelsContentGroup">
+          <div class="TabbedPanelContent">
+            <input id="api_search" autocomplete="off" size="20" type="text" value="" title=
+            "Enter part of an API title to search on" />
+
+            <div id="api_list" class="autocomplete" style="display:none;"></div>
+
+            <h3 class="api_group">Dialog</h3>
+
+            <ul class="api_nav">
+              <li><a href="dismissCustomDialog.html">Dismiss custom dialog</a></li>
+
+              <li><a href="presentCustomDialog.html">Present custom dialog</a></li>
+            </ul>
+
+            <h3 class="api_group">Folio</h3>
+
+            <ul class="api_nav">
+              <li><a href="archiveFolio.html">Archive folio</a></li>
+
+              <li><a href="buyFolio.html">Buy folio</a></li>
+
+              <li><a href="getFolioData.html">Get folio data</a></li>
+
+              <li><a href="viewFolio.html">View folio</a></li>
+            </ul>
+
+            <h3 class="api_group">Library</h3>
+
+            <ul class="api_nav">
+              <li><a href="goToLibrary.html">Go to library</a></li>
+
+              <li><a href="registerLibraryUpdateCompleteHandler.html">Register library update
+              complete handler</a></li>
+
+              <li><a href="unregisterLibraryUpdateCompleteHandler.html">Unregister library update
+              complete handler</a></li>
+
+              <li><a href="updateLibrary.html">Update library</a></li>
+            </ul>
+
+            <h3 class="api_group">Other</h3>
+
+            <ul class="api_nav">
+              <li><a href="dismissWelcomeScreen.html">Dismiss welcome screen</a></li>
+
+              <li><a href="displayWelcomeScreen.html">Display welcome screen</a></li>
+
+              <li><a href="getDeviceId.html">Get device id</a></li>
+
+              <li><a href="getEntitledProducts.html">Get entitled products</a></li>
+
+              <li><a href="getPreviewImage.html">Get preview image</a></li>
+
+              <li><a href="getReceiptData.html">Get receipt data</a></li>
+
+              <li><a href="getWindowOrientation.html">Get window orientation</a></li>
+
+              <li><a href="refreshEntitlements.html">Refresh entitlements</a></li>
+
+              <li><a href="restorePurchases.html">Restore purchases</a></li>
+            </ul>
+
+            <h3 class="api_group">Subscription</h3>
+
+            <ul class="api_nav">
+              <li><a href="buySubscription.html">Buy subscription</a></li>
+
+              <li><a href="getSubscriptionData.html">Get subscription data</a></li>
+            </ul>
+
+            <h3 class="api_group">User</h3>
+
+            <ul class="api_nav">
+              <li><a href="getUserInfo.html">Get user info</a></li>
+
+              <li><a href="setUserInfo.html">Set user info</a></li>
+            </ul>
+          </div>
+
+          <div class="TabbedPanelContent">
+            <ul class="api_nav">
+              <li><a href="archiveFolio.html">Archive folio</a></li>
+
+              <li><a href="buyFolio.html">Buy folio</a></li>
+
+              <li><a href="buySubscription.html">Buy subscription</a></li>
+
+              <li><a href="dismissCustomDialog.html">Dismiss custom dialog</a></li>
+
+              <li><a href="dismissWelcomeScreen.html">Dismiss welcome screen</a></li>
+
+              <li><a href="displayWelcomeScreen.html">Display welcome screen</a></li>
+
+              <li><a href="getDeviceId.html">Get device id</a></li>
+
+              <li><a href="getEntitledProducts.html">Get entitled products</a></li>
+
+              <li><a href="getFolioData.html">Get folio data</a></li>
+
+              <li><a href="getPreviewImage.html">Get preview image</a></li>
+
+              <li><a href="getReceiptData.html">Get receipt data</a></li>
+
+              <li><a href="getSubscriptionData.html">Get subscription data</a></li>
+
+              <li><a href="getUserInfo.html">Get user info</a></li>
+
+              <li><a href="getWindowOrientation.html">Get window orientation</a></li>
+
+              <li><a href="goToLibrary.html">Go to library</a></li>
+
+              <li><a href="presentCustomDialog.html">Present custom dialog</a></li>
+
+              <li><a href="refreshEntitlements.html">Refresh entitlements</a></li>
+
+              <li><a href="registerLibraryUpdateCompleteHandler.html">Register library update
+              complete handler</a></li>
+
+              <li><a href="restorePurchases.html">Restore purchases</a></li>
+
+              <li><a href="setUserInfo.html">Set user info</a></li>
+
+              <li><a href="unregisterLibraryUpdateCompleteHandler.html">Unregister library update
+              complete handler</a></li>
+
+              <li><a href="updateLibrary.html">Update library</a></li>
+
+              <li><a href="viewFolio.html">View folio</a></li>
+            </ul>
+          </div>
+        </div>
+      </div><script type="text/javascript">
+//<![CDATA[
+      var defTab = getCookie("api_tab");
+      if (defTab == null) defTab = "0";
+      defTab = parseInt(defTab);    
+      var opts = { defaultTab: defTab };  
+        var api_tabs = new Spry.Widget.TabbedPanels("api_tabs", opts);
+      api_tabs.onTabClick = function(e, tab) {    
+          this.showPanel(tab);
+          var expireDate = new Date();
+          expireDate.setDate(expireDate.getDate() + 30);
+          setCookie("api_tab", "" + this.getCurrentTabIndex(), expireDate, "/");
+          return this.cancelEvent(e);
+      };    
+
+      var apiList = [];
+      var apiData = {
+      "Archive folio": "archiveFolio.html", "Buy folio": "buyFolio.html", "Buy subscription": "buySubscription.html", "Dismiss custom dialog": "dismissCustomDialog.html", "Dismiss welcome screen": "dismissWelcomeScreen.html", "Display welcome screen": "displayWelcomeScreen.html", "Get device id": "getDeviceId.html", "Get entitled products": "getEntitledProducts.html", "Get folio data": "getFolioData.html", "Get preview image": "getPreviewImage.html", "Get receipt data": "getReceiptData.html", "Get subscription data": "getSubscriptionData.html", "Get user info": "getUserInfo.html", "Get window orientation": "getWindowOrientation.html", "Go to library": "goToLibrary.html", "Present custom dialog": "presentCustomDialog.html", "Refresh entitlements": "refreshEntitlements.html", "Register library update complete handler": "registerLibraryUpdateCompleteHandler.html", "Restore purchases": "restorePurchases.html", "Set user info": "setUserInfo.html", "Unregister library update complete handler": "unregisterLibraryUpdateCompleteHandler.html", "Update library": "updateLibrary.html", "View folio": "viewFolio.html"  };
+      for (var apiTitle in apiData) {
+      apiList.push(apiTitle);
+      }
+      function gotoPage() {
+      var api_title = $('api_search').value;
+      var api_page = apiData[api_title];
+      window.location = api_page;
+      }
+      new Autocompleter.Local('api_search', 'api_list', apiList, {fullSearch: true, afterUpdateElement: gotoPage});
+      $('api_search').focus();      
+      //]]>
+      </script>
+    </div>
+
+    <div id="page">
+      <div id="content">
+        <div class="wadl-api">
+          <h1 class="wadl-title">Get receipt data</h1>
+
+          <ul class="wadl-flags">
+            <li id="since"><strong>Since SDK</strong>: 20</li>
+          </ul>
+
+          <p>Get receipts for all purchased folios and purchased subscriptions.</p>
+
+          <div id="wadl-resources">
+            <div class="resource">
+              <h2 id="d55e3"><span class="path">adobe.dps.store.getReceiptData<wbr /></span></h2>
+
+              <div class="method">
+                <table class="parameters" border="1" summary="API Parameters">
+                  <tr>
+                    <th width="20%">Parameter</th>
+
+                    <th width="10%">Type</th>
+
+                    <th width="60%">Description</th>
+                  </tr>
+
+                  <tr class="param-style-query" title="query">
+                    <td class="param-name level-1">callback</td>
+
+                    <td class="param-type">
+                      <p><em><a title="" href=
+                      "schema/urn_com_adobe_Store_1.0/complexType/getReceiptDataFunction.html">getReceiptDataFunction</a></em></p>
+                    </td>
+
+                    <td class="param-options">Function that will be receive a dictionary of Store
+                    Product Ids -&gt; receipt pairs in the form of {productId:receipt}. The folio
+                    product Ids can be retreived by the getFolioData() call. The receipts should be
+                    in the form the respective store server expects to receive. For subscription
+                    receipts, we only pass the receipt associated with the subscription that was
+                    most recently purchased.</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+
+          <div id="wadl-representations">
+            <div class="representation">
+              <h3 id="d55e18"><abbr title="{}  ">getReceiptDataFunction</abbr></h3>
+
+              <table class="parameters" border="1" summary="API Parameters">
+                <tr>
+                  <th width="20%">Parameter</th>
+
+                  <th width="10%">Type</th>
+
+                  <th width="60%">Description</th>
+                </tr>
+
+                <tr class="param-style-plain" title="plain">
+                  <td class="param-name level-1">dictionary</td>
+
+                  <td class="param-type">
+                    <p><em><a title="" href=
+                    "schema/urn_com_adobe_Store_1.0/complexType/getReceiptDataResult.html">getReceiptDataResult</a></em></p>
+                  </td>
+
+                  <td class="param-options">A dictionary containing the receipt information, as
+                  defined for a specific service.</td>
+                </tr>
+
+                <tr class="param-style-plain" title="plain">
+                  <td class="param-name level-2">productId</td>
+
+                  <td class="param-type">
+                    <p><em><a title="" href=
+                    "schema/urn_com_adobe_Store_1.0/complexType/receipt.html">receipt</a></em></p>
+                  </td>
+
+                  <td class="param-options">The receipt data for the given product.</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+
+          <div id="wadl-faults"></div>
+
+          <div>
+            <h2 id="clientlib_snippets">API Snippet</h2>
+
+            <h4 class="snippet_intro" id="getReceiptData_snippet">getReceiptData</h4>
+
+            <div>
+              <pre class="programlisting snippet">
+&lt;!DOCTYPE html PUBLIC "-<wbr />/<wbr />/<wbr />W3C/<wbr />/<wbr />DTD XHTML 1.0 Transitional/<wbr />/<wbr />EN" "http:/<wbr />/<wbr />www.w3.org/<wbr />TR/<wbr />xhtml1/<wbr />DTD/<wbr />xhtml1-<wbr />transitional.dtd"&gt;
+&lt;html xmlns=<wbr />"http:/<wbr />/<wbr />www.w3.org/<wbr />1999/<wbr />xhtml"&gt;
+&lt;head&gt;
+&lt;meta http-<wbr />equiv=<wbr />"Content-<wbr />Type" content=<wbr />"text/<wbr />html; charset=<wbr />UTF-<wbr />8" /<wbr />&gt;
+&lt;title&gt;&lt;%<wbr />=<wbr /> wadl_file.awsi.name %<wbr />&gt; API&lt;/<wbr />title&gt;
+&lt;script type=<wbr />"text/<wbr />javascript"&gt;
+window.onadobedpscontextloaded =<wbr /> loadPage;
+function loadPage()
+{
+  /<wbr />/<wbr /> call into the getReceiptData API
+  if (window.adobedpscontextloaded)
+  {
+    adobe.dps.store.getReceiptData(function(dictionary)
+      {
+        alert("Product " +<wbr /> myProductID_1 +<wbr /> ": receipt " +<wbr /> dictionary[myProductID_1]);
+        alert("Product " +<wbr /> myProductID_2 +<wbr /> ": receipt " +<wbr /> dictionary[myProductID_2]);
+      }
+    );
+  }
+}
+&lt;/<wbr />script&gt;
+&lt;/<wbr />head&gt;
+
+&lt;body&gt;
+&lt;/<wbr />body&gt;
+&lt;/<wbr />html&gt;
+</pre>
+            </div>
+          </div><script type="text/javascript">
+//<![CDATA[
+
+          transformSnippets();
+
+          //]]>
+          </script>
+        </div>
+
+        <div id="footer">
+          Copyright &#169; 2011 Adobe Systems Incorporated. All rights reserved.
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

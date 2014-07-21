@@ -1,0 +1,125 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+  <meta name="generator" content=
+  "HTML Tidy for Mac OS X (vers 31 October 2006 - Apple Inc. build 15.6), see www.w3.org" />
+
+  <title>Custom HTML Store - Getting Started</title>
+  <meta http-equiv="content-type" content="text/html; charset=us-ascii" />
+  <meta name="author" content="Adobe Developer Technologies Group" />
+  <link rel="stylesheet" href="css/common.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="css/print.css" type="text/css" media="print" />
+  <link rel="stylesheet" href="css/site.css" type="text/css" media="screen, projection" />
+  <link rel="shortcut icon" type="x-icon" href="favicon.ico" />
+  <script src="js/SpryDOMUtils.js" type="text/javascript">
+</script>
+  <script src="js/SpryEffects.js" type="text/javascript">
+</script>
+  <script src="js/SpryTabbedPanels.js" type="text/javascript">
+</script>
+  <script src="js/adobe-wadl.js" type="text/javascript">
+</script><!--[if lt IE 8]>
+   <script src="js/IE8.js" type="text/javascript"></script>
+   <style type="text/css">
+#sidebar {height: 100%;}
+#header {width: 100%;}
+    </style>
+<![endif]-->
+</head>
+
+<body>
+  <div id="header">
+    <h1><a href="/" id="home_link" name="home_link"><span class="replace">Custom HTML Store
+    <span class="sdk">API</span></span></a> <span id="version">20 0</span> <span><img src=
+    "images/adobe_logo_tag_top.png" alt="Adobe logo" /></span></h1>
+
+    <ul id="menu_nav">
+      <li><a href="getting_started.html" class="selected">Getting started</a></li>
+
+      <li><a href="index.html">API Reference</a></li>
+      <!--  <li><a href="programmers_guide.html" >Programmers Guide</a></li>
+      <li><a href="faq.html" >FAQ</a></li> -->
+    </ul>
+  </div>
+
+  <div id="body">
+    <div id="page">
+      <div id="content">
+        <h1>Getting Started</h1>
+
+        <p>The custom HTML Store API allows you to create custom HTML store fronts to embed in
+        Digital Publishing Store (DPS) viewer applications that are created with the Adobe Viewer
+        Builder.</p>
+
+        <p>A custom store-front application allows users to purchase subscriptions and folios
+        through the in-app payment mechanism of a specific store, and download products from that
+        store. For example, if you publish an iPad viewer app for use with Apple's App Store, goods
+        purchased through the custom store front use the Apple payment mechanism. Your custom store
+        can leverage the functionality of the viewer app that handles purchases. For example, you
+        can use Viewer Builder to disable the iTunes Subscription "Buy" buttons in the library view
+        of multi-issue viewer apps, forcing all purchases to go through your custom store front
+        instead.</p>
+
+        <p>When a designer uses Viewer Builder to create a DPS viewer application, items in the
+        toolbar launch various in-app web views, which can be about or help pages, for example. You
+        can provide your custom store-front as an option through Viewer Builder by adding it as a
+        custom toolbar icon. Your custom icon launches your HTML-based store-front web view,
+        allowing the designer to embed it in their viewer app.</p>
+
+        <h2>Designing a custom store front</h2>
+
+        <p>The design of the store front is up to you. You define the store front in a single HTML
+        file, which can use CSS, JavaScript, and images. If you use a frameworks such as JQuery,
+        the related JavaScript files must be included in the zip of your store front source code,
+        or linked from the HTML to a hosted location. We recommend that you host your JavaScript,
+        CSS, and image files on a web-server and link to them from the HTML file. This reduces the
+        risk of having to update your viewer app and resubmit to various app stores when content
+        within your store front changes.</p>
+        <pre class="programlisting snippet">
+&lt;script src="http://my-website.com/store/js/my_javascript.js"&gt;&lt;/script&gt;
+</pre>
+
+        <h2>Making your custom store available to viewer apps</h2>
+
+        <p>Once your store is complete, you must create a zip archive containing all of its files,
+        and provide that zip through the custom toolbar icons screen of Viewer Builder.</p>
+
+        <p><strong>Note:</strong> Currently, you must design your store front so that it has a flat
+        directory structure. That is, the top-level folder must contain only HTML, CSS, JavaScript
+        and image files. Viewer Builder expects a zip file that contains no folders. If folders are
+        present, they are ignored.</p>
+
+        <h2>Offline workflow</h2>
+
+        <p>We recommend that your design allow for viewing when the viewing device is offline. An
+        easy way to do this is to use the JQuery framework and the <code>$.ajax()
+        error</code>callback that fires when a request fails. For example:</p>
+        <pre class="programlisting snippet">
+$(document).ready(function() {
+   var init = function() {              
+        $.ajax({
+           type: "GET",
+           url: "http://www.adobe.com",
+           success: function() {
+              window.onnetworkconnection();
+           },
+           error: function() {
+              $("body").append("&lt;div id='offline'&gt;You must be connected to 
+                                the internet.&lt;/div&gt;");
+           }
+        })
+   }
+   window.onadobedpscontextloaded = init;
+});
+</pre>
+
+        <div id="footer">
+          Copyright &copy; 2011 Adobe Systems Incorporated. All rights reserved.
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

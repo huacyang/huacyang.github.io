@@ -1,0 +1,116 @@
+#folios
+{
+	width: 768px;
+	display: inline-block;
+}
+
+#foliosContainer
+{
+	width: 100%;
+	margin-top: 19px;
+	margin-bottom: 50px;
+	padding-left: 4px;
+	padding-right: 4px;
+	text-align: center;
+}
+
+#loading, #more
+{
+	margin-top: 20px;
+}
+
+#more
+{
+	color: #00CBF7;
+	font-size: 20px;
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+
+.folio
+{
+	float: left;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 0px;
+	padding-bottom: 22px;
+	text-align: left;
+}
+
+.folio #manifestXRef
+{
+	color: #4c4c4c;
+	font-size: 12px;
+	padding-bottom: 7px;
+}
+
+.folio #title
+{
+	color: #000000;
+	font-size: 12px;
+	font-weight: bold;
+	padding-top: 7px;
+	padding-bottom: 3px;
+}
+
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica;
+	background: #EAE8E0;
+}
+
+.buyButton
+{
+	background-image:url('http://lighthouse.adobe.com/users/derek/store/images/blackPrice_up.png');
+	background-repeat: no-repeat;
+	width: 70px;
+	height: 30px;
+	color: #00CBF7;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 8px;
+}
+
+#slideshow
+{
+	height: 327px;
+}
+
+#slideshowViewport
+{
+	position: absolute;
+	left: 50%;			/* Used in conjunction with margin-left for horizontal center. */
+	margin-left: -365px;/* viewport width / 2 */
+	top: 20px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #ffffff;
+	overflow: hidden;
+	width: 730px;
+	height: 297px;
+}
+
+#navStatusContainer
+{
+	width: 100%;
+	text-align: center;
+}
+
+#navStatus
+{
+	left: 50%;			/* Used in conjunction with margin-left for horizontal center. */
+	margin-left: -365px;/* viewport width / 2 */
+	position: absolute;
+	top: 289px;
+}
+
+.slideshowImage
+{
+	position:absolute;
+	-webkit-transform: translateZ(0);
+}

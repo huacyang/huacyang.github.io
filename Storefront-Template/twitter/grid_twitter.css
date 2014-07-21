@@ -1,0 +1,119 @@
+#folios
+{
+	width: 570px;
+	display: inline-block;
+}
+
+/* Used to center container. */
+#outerContainer
+{
+	width: 100%;
+	text-align: center;
+}
+
+/* Two column container for folios on the left and twitter on the right. */
+#container
+{
+	display: inline-block;
+	width: 768px;
+	margin-top: 19px;
+	margin-bottom: 50px;
+}
+
+#leftCol
+{
+	float: left;
+}
+
+#loading, #more
+{
+	margin-top: 20px;
+	text-align: center;
+}
+
+#more
+{
+	color: #00CBF7;
+	font-size: 20px;
+	width: 100%;
+	display: block;
+}
+
+.folio
+{
+	float: left;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 0px;
+	padding-bottom: 22px;
+	text-align: left;
+}
+
+.folio #manifestXRef
+{
+	color: #B9BDBD;
+	font-size: 12px;
+	padding-bottom: 7px;
+}
+
+.folio #title
+{
+	color: #ffffff;
+	font-size: 12px;
+	font-weight: bold;
+	padding-top: 7px;
+	padding-bottom: 3px;
+}
+
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica;
+	background: #525B5A;
+	color: #ffffff;
+}
+
+.buyButton
+{
+	background-image:url('http://lighthouse.adobe.com/users/derek/store/images/bluePrice_up.png');
+	background-repeat: no-repeat;
+	width: 70px;
+	height: 30px;
+	color: #ffffff;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 8px;
+}
+
+#twitter
+{
+	float: right;
+	width: 185px;
+	text-align: left;
+	padding-left: 13px;
+	font-size: 12px;
+}
+
+#twitter hr
+{
+	color: #7A807F;
+	background-color: #7A807F;
+	height: 1px;
+	border: none;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#twitter .date
+{
+	font-size: 11px;
+	color: #B9BDBD;
+	padding-top: 4px;
+}
+
+#twitter a
+{
+	color: #00CBF7;
+}
